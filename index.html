@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henry's Kitchen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Henry's Kitchen</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <input class="search-bar" type="text" placeholder="Search">
+
+    <section id="home">
+        <h2>Welcome to Henry's Kitchen</h2>
+        <p>Experience the best homemade food in town!</p>
+        
+    </section>
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <ul>
+            <li>Spaghetti Carbonara 25$</li>
+            <li>Grilled Salmon</li>
+            <li>Caesar Salad</li>
+            <li>Chocolate Lava Cake</li>
+        </ul>
+        <div class="picture-preview">
+            <img class="pictures" src="pictures/grilled salmon.jpeg"> 
+            <p class="picture-title">
+                <strong>Grilled Salmon </strong>
+            </p>
+        </div>
+        <div class="spag">
+            <img class="pictures" src="pictures/Spaghetti Carbonara.jpg">
+            <p class="picture-title">
+                <strong>Spaghetti Carbonara</strong>
+            </p>
+        </div>
+        <div class="ceasar">
+            <img class="pictures" src="pictures/ceasar salad.jpeg">
+            <p class="picture-title" >
+                <strong>Ceasar Salad</strong>
+            </p>
+        </div>
+        <div class="choco">
+            <img class="pictures" src="pictures/Chocolate Lava Cake.jpg">
+            <p class="picture-title">
+                <strong>Chocolate Lava Cake</strong>
+            </p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Henry's Kitchen has been serving delicious homemade food since 1990. We pride ourselves on using the freshest ingredients and providing a cozy dining experience.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@henryskitchen.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Address: 123 Food Street, Flavor Town</p>
+    </section>
+
+
+    <footer>
+        <p>© 2024 Henry's Kitchen. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-size: 20px;
+}
+
+header {
+    background-color: rgb(110, 0, 0);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar {
+        display: block;
+        width: 200px;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 20px;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.picture-preview {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.spag {
+    width: 300px;
+    display: inline-block;
+}
+
+.ceasar{
+    width: 300px;
+    display: inline-block;
+    
+}
+
+.choco {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+    .picture-title {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+footer {
+    background-color: rgb(110, 0, 0);
+    color: white;
+    text-align: left;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+</style>
